@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>It's Hard</title>
+	<link rel="shortcut icon" href= "Prettyhurts.ico" type="image/x-icon">
+<style>
+	body {
+		background-color: #cfd2f6;
+	}
+	#eyes{
+		background-color: #cfd2f6;
+		position: absolute;
+		margin-left: 115px;	
+		z-index: 1;
+	}
+	.comment1{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 70px;
+		left: 2px;
+		font-size: 50px;
+	}
+	.thought1{
+		background-color: #cfd2f6;
+		color: #cfd2f6;
+		position: absolute;
+		top: 120px;
+		left: 10px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+	}
+	.thought1:hover {color: black}
+	
+	.comment2{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		font-family: fantasy, impact, sans-serif;
+		top: 150px;
+		left: -70px; 
+		font-size: 50px;
+		
+	}
+	.thought2{
+		background-color: #cfd2f6;
+		color: #cfd2f6;
+		position: absolute;
+		top: 210px;
+		left: -70px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought2:hover {color: black}
+	
+	.comment3{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 250px;
+		left: -70px; 
+		font-size: 50px;
+		
+	}
+	.thought3{
+		background-color: #cfd2f6;
+		color:  #cfd2f6;
+		position: absolute;
+		top: 363px;
+		left: -70px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought3:hover {color: black}
+	
+	.comment4{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 400px;
+		left: -50px; 
+		font-size: 50px;
+		font-family: Gill Sans, sans-serif, Arial;
+		
+	}
+	.thought4{
+		background-color: #cfd2f6;
+		color:  #cfd2f6;
+		position: absolute;
+		top: 455px;
+		left: -50px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+		
+	}
+	.thought4:hover {color: black}
+	
+	.comment5{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 490px;
+		left: -30px; 
+		font-size: 70px;
+		font-family: Blippo, fantasy;
+		
+	}
+	.thought5{
+		background-color: #cfd2f6;
+		color:  #cfd2f6;
+		position: absolute;
+		top: 570px;
+		left: -30px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought5:hover {color: black}
+	
+	.comment6{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 590px;
+		left: -70px; 
+		font-size: 50px;
+		font-family: Times New Roman, Serif;
+		
+	}
+	.thought6{
+		background-color: #cfd2f6;
+		color:  #cfd2f6;
+		position: absolute;
+		top: 645px;
+		left: -70px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought6:hover {color: black}
+	
+	.comment7{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: -5px;
+		left: 580px; 
+		font-size: 65px;
+		font-family: Arial, sans-serif;
+		
+	}
+	.thought7{
+		background-color: #cfd2f6;
+		color:  #cfd2f6;
+		position: absolute;
+		top: 80px;
+		left: 880px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought7:hover {color: black}
+	
+	.comment8{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 110px;
+		left: 870px; 
+		font-size: 60px;
+		font-family: Impact, fantasy;
+		
+	}
+	.thought8{
+		background-color: #cfd2f6;
+		color: #cfd2f6;
+		position: absolute;
+		top: 250px;
+		left: 870px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought8:hover {color: black}
+	
+	.comment9{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 5px;
+		left: -30px; 
+		font-size: 35px;
+		font-family: Impact, fantasy;
+		
+	}
+	.thought9{
+		background-color: #cfd2f6;
+		color: #cfd2f6;
+		position: absolute;
+		top: 50px;
+		left: -30px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought9:hover {color: black}
+	
+	.comment10{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 280px;
+		left: 860px; 
+		font-size: 40px;
+		font-family: Serif, times new roman;
+		
+	}
+	.thought10{
+		background-color: #cfd2f6;
+		color:  #cfd2f6;
+		position: absolute;
+		top: 380px;
+		left: 860px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought10:hover {color: black}
+	
+	.comment11{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 400px;
+		left: 780px; 
+		font-size: 50px;
+		font-family: Courier, Arial;
+		
+	}
+	.thought11{
+		background-color: #cfd2f6;
+		color:  #cfd2f6;
+		position: absolute;
+		top: 515px;
+		left: 780px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought11:hover {color: black}
+	
+	.comment12{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 580px;
+		left: 490px; 
+		font-size: 65px;
+		font-family: Serif, times new roman;
+		
+	}
+	.comment13{
+		background-color: transparent;
+		opacity: 0.7;
+		position: absolute;
+		top: 540px;
+		left: 820px; 
+		font-size: 40px;
+		font-family: Verdana, Arial;
+		
+	}
+	.thought13{
+		background-color: #cfd2f6;
+		color:  #cfd2f6;
+		position: absolute;
+		top: 645px;
+		left: 895px;
+		font-size: 14px;
+		font-family: sans-serif, Arial;
+		
+	}
+	.thought13:hover {color: black}
+	
+	a.link {color: black}
+	a.link:hover {color: #4ea087}
+	
+
+</style>
+
+</head>
+
+<body>
+
+<div id="eyes"><img src="Crying eyes.png" alt="Outline of eyes with tears. "width= "1150" height= "650" >
+
+<div class="comment1"><b>YOU EAT TOO MUCH.</b></div><!--complaint-->
+<div class="thought1">But I'm hungry.</div><!--inside thought-->
+
+<div class="comment2"><b><i>Fix your posture!</i></b></div><!--complaint-->
+<div class="thought2">It's tiring.</div><!--inside thought-->
+
+<div class="comment3">My nose is <br>HUGE.</div><!--complaint-->
+<div class="thought3">I can't afford a nose job.</div><!--inside thought-->
+
+<div class="comment4"><b>SMILE more.</b></div><!--complaint-->
+<div class="thought4">My teeth are crooked.</div><!--inside thought-->
+
+<div class="comment5"><b>You're too FAT.</b></div><!--complaint-->
+<div class="thought5">Diets are hard.</div><!--inside thought-->
+
+<div class="comment6"><b>I wish for CLEAR SKIN.</b></div><!--complaint-->
+<div class="thought6">My acne makes me look horrible.</div><!--inside thought-->
+
+<div class="comment7">You should wear MAKEUP</div><!--complaint-->
+<div class="thought7">It's uncomfortable for me.</div><!--inside thought-->
+
+<div class="comment8"><b>You're too SKINNY</b></div><!--complaint-->
+<div class="thought8">I can only eat so much.</div><!--inside thought-->
+
+<div class="comment9"><b>An hourglass body is perfect.</b></div><!--complaint-->
+<div class="thought9">I hate my body.</div><!--inside thought-->
+
+<div class="comment10"><b>Upper lip hair is gross.</b></div><!--complaint-->
+<div class="thought10">I wish I looked more feminine.</div><!--inside thought-->
+
+<div class="comment11"><b>Big lips are pretty.</b></div><!--complaint-->
+<div class="thought11">I hate my small lips.</div><!--inside thought-->
+<!--"It's HARD" is clickable and links to  Real_me.html page-->
+<div class="comment12"><a href="Real_me.html" style="text-decoration: none" class="link"><b>It's HARD.</b></a></div>
+
+<div class="comment13"><b>You must look presentable.</b></div><!--complaint-->
+<div class="thought13">It's too much pressure.</div><!--inside thought-->
+
+
+</div>
+</body>
+</html>

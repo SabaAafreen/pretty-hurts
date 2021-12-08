@@ -4,4 +4,4 @@ My website is about girls hiding their natural beauty to fit in with society's u
 many girls go through which I believe should be brought to light. My website is built to convey this message and also to empower women and girls 
 to accept their natural beauty and not be afraid to share their experiences. 
 
-NOTE: The website is created for and works best on a 1350x800px browser window. Please use the pink 1350x800 image from repository to resize your browser.
+**NOTE**: The website is created for and works best on a 1350x800px browser window. Please use the pink 1350x800 image from repository to resize your browser.
